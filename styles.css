@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -16,34 +15,30 @@ h1 {
 
 .book-library {
     background-color: #ffffff;
-    width: 800px;
-    padding: 20px;
-}
-
-.book-block {
-    margin: 10px;
-}
-
-.image {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.content {
-    line-height: 22px;
-    margin: 10px;
-}
-
-.author {
-    color: #777777;
+    width: 600px;
 }
 
 .book {
-    background-color: #2ecc71;
-    width: 100%;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+    margin: 20px;
 }
+.book img {
+    padding: 20px 170px 0px 170px;
+
+}
+.book h2 {
+    padding: 0px 20px;
+}
+.author {
+    color: #777777;
+    padding: 0px 20px;
+}
+.price {
+    background-color: #2ecc71;
+    color: #ffffff;
+    margin: 0px 20px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 7px;
+}
+

@@ -42,4 +42,8 @@ body {
     text-align: center;
     padding: 7px;
 }
+.price {
+	background-color: #2ecc71;
+	color: #2ecc71;
+}
 

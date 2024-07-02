@@ -8,14 +8,15 @@ body {
     display: flex;
     justify-content: center;
 }
-
-h1 {
+.container {
+	width: 600px;
+}
+.book-l h1 {
     text-align: center;
 }
 
 .book-library {
     background-color: #ffffff;
-    width: 600px;
 }
 
 .book {
@@ -32,7 +33,7 @@ h1 {
     color: #777777;
     padding: 0px 20px;
 }
-.price {
+.price-b .price {
     background-color: #2ecc71;
     color: #ffffff;
     margin: 0px 20px;
